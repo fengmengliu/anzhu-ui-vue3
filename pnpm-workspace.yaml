@@ -1,0 +1,5 @@
+# 指定仓库下有多少个包
+packages:
+  - play # 存放我们组件测试时候的代码
+  - docs # 存放组件文档的
+  - "packages/**" # packages下每个目录也是一个包-- 包含package.json文件的，分别手动进入每个目录下面执行 pnpm init

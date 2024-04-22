@@ -1,0 +1,20 @@
+{
+  "name": "anzhu-ui-vue3",
+  "private": true,
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "pnpm -C play dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@anzhu-ui/components": "workspace:*",
+    "@anzhu-ui/theme-chalk": "workspace:*",
+    "@anzhu-ui/utils": "workspace:*",
+    "typescript": "^5.4.5",
+    "vue": "^3.4.23"
+  }
+}
