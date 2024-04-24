@@ -1,0 +1,38 @@
+@use 'config'  as *;
+@forward 'config';
+
+// BEM规范文件
+// .anzhu-button{}
+@mixin b($block){
+  $B: $namescpace+'-'+$block;
+  .#{$B}{
+    @content;
+  }
+}
+
+// .anzhu-button.is-desiabled
+@mixin when($state){
+  @at-root{
+    &.#{$state-prefix + $state}{
+      @content;
+    }
+  }
+}
+
+// &--primary => .anzhu-button--primary
+@mixin m($modifier){
+  @at-root {
+    #{&+$modifier-separator+$modifier} {
+      @content;
+    }
+  }
+}
+
+// &__header => .anzhu-button__header
+@mixin e($element){
+  @at-root {
+    #{&+$element-separator+$element} {
+      @content;
+    }
+  }
+}

@@ -16,5 +16,8 @@
     "@anzhu-ui/utils": "workspace:*",
     "typescript": "^5.4.5",
     "vue": "^3.4.23"
+  },
+  "devDependencies": {
+    "sass": "^1.75.0"
   }
 }
