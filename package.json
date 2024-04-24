@@ -14,6 +14,9 @@
     "@anzhu-ui/components": "workspace:*",
     "@anzhu-ui/theme-chalk": "workspace:*",
     "@anzhu-ui/utils": "workspace:*",
+    "@types/mockjs": "^1.0.10",
+    "@vitejs/plugin-vue-jsx": "^3.1.0",
+    "mockjs": "^1.1.0",
     "typescript": "^5.4.5",
     "vue": "^3.4.23"
   },
