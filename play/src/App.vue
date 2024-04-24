@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { BarcodeOutline } from '@vicons/ionicons5'
+
 </script>
 
 <template>
@@ -11,6 +12,4 @@ import { BarcodeOutline } from '@vicons/ionicons5'
   </a-icon>
 </template>
 
-<style scoped>
-
-</style>
+<style scoped></style>
