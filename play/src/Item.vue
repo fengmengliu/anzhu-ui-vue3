@@ -1,16 +1,16 @@
 <template>
-  <div class="item">
+  <div class="item" :style="{ height: '80px' }" :data-index="source.index">
     <div class="head">
       <span>{{ source.index }}</span>
       <span>{{ source.name }}</span>
     </div>
     <div class="body">
-      {{ source.desc }}
+      <span>{{ source.desc }}</span>
     </div>
   </div>
 </template>
 
-<script setup lang="ts">
+<script lang="ts" setup>
 defineProps({
   source: {
     type: Object,

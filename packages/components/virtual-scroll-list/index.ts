@@ -6,9 +6,9 @@ import { withInstall } from '@anzhu-ui/utils/with-install';
 import _VirtualScrollList from './src/virtual-scroll-list';
 
 const VirtualScrollList = withInstall(_VirtualScrollList);
-
 export default VirtualScrollList;
 
+// 为了能够让编辑器有提示，定义此声明
 declare module 'vue' {
   export interface GlobalComponents {
     AVirtualScrollList: typeof VirtualScrollList;
